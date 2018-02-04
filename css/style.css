@@ -1,0 +1,111 @@
+body{
+  height:400px;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAFUlEQVQImWNgQAIbNmzwJZXDwMAAAEQNCXWFaj5WAAAAAElFTkSuQmCC) repeat;
+}
+
+.header{
+  height: 100px;
+  margin-top:80px;
+}
+
+.main{
+  display:block;
+  background-color:line;
+  border:2px inset;
+  border-color:black;
+  width:500px;
+  height:200px;
+  margin-top:200px;
+  margin:0 auto;
+  padding:20px;
+  text-align:justify;
+}
+.buttons{
+  margin-top:10px;
+  margin-left:45%;
+  height:150px;
+}
+.next_btn{
+  margin-left:260px;
+  font-family: 'Playfair Display', serif;
+  font-weight:bold;
+  font-size:20px;
+  border:none;
+  background: url(https://uvp4xg-bn1305.files.1drv.com/y3mWhauyMlGXiO_aXBmW5FQSBSUgSInmBBsLj4mLj5_WYbGozb_hyOaTB6n6ONgsqga6HAVFO_Pq-Uy2i9l_uho7Dq1P1WkLucQ7YvLFec5-CSOApL2uI44tcnutPvH0JuS2cFpmU5YIv25_APuHLrz_MCBovPNJMC8E2Lyp8jMLBw?width=200&height=200&cropmode=none) no-repeat;
+  background-size:100%;
+  height:80px;
+  width:80px;
+  transition-duration:1s;
+}
+.next_btn:hover{
+  
+background:url(https://d30y9cdsu7xlg0.cloudfront.net/png/71826-200.png) no-repeat;
+  background-size:100%;
+  
+}
+.next_btn:active{
+  transform: rotate(-15deg);
+  transition-duration: 0s;
+}
+.tweet_btn{
+  
+  margin-left:-190px;
+  background: url(http://www.freeiconspng.com/uploads/twitter-icon-download-18.png) no-repeat;
+  background-size:100%;
+  border:none;
+  padding:10px 25px;
+  height:80px;
+  width:80px;
+  transition-duration:0.3s;
+  
+}
+.tweet_btn:hover {
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+}
+
+.tweet_btn:active{
+  -webkit-filter: drop-shadow(0.5px 0.5px 0.5px #222);
+  filter: drop-shadow(0.5px 0.5px 0.5px #222);
+}
+
+#title{
+  font-family: 'Yatra One', cursive;
+  font-size:44px;
+  padding-left:5em;
+  margin-left:5em;
+}
+.dice{
+  position:absolute;
+  margin-left:630px;
+  margin-top:-90px;
+  width:55px;
+}
+#quote{
+  font-family: 'Playfair Display', serif;
+  font-size:26px;
+  
+  
+}
+#author{
+  position:relative;
+  font-family: 'Playfair Display', serif;
+  font-size:20px;
+
+}
+#tweet{
+  opacity:0;
+}
+footer{
+  display:block;
+  clear:both;
+  left:0;
+  padding:0;
+  right:0;
+  width:100%;
+  text-align:center;
+  font-family: 'Playfair Display', serif;
+  background-color:grey;
+  color:white;
+  overflow:hidden;
+}
